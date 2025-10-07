@@ -10,6 +10,7 @@ import image
 import recognize
 from rich import print_json
 
+#怎么样才能跑起来？
 
 
 DEBUG_MODE = False  # Debug模式，是否打印请求返回信息
@@ -705,5 +706,6 @@ async def run():
     await push(PUSH_MSG)
 
 asyncio.run(run())
+
 
 
